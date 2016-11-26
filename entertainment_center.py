@@ -5,17 +5,34 @@ toy_story = media.Movie("The Flash",
                         "http://cdn-static.sidereel.com/tv_shows/57093/giant_2x/the-flash.jpg",
                         "https://www.youtube.com/watch?v=f5gmEHbBPWs&t=5s")
 
-ayo_story = media.Movie("The Ayoola",
-                        "The story of a man",
-                        "http://cdn-static.sidereel.com/tv_shows/57093/giant_2x/the-flash.jpg",
-                        "https://www.youtube.com/watch?v=f5gmEHbBPWs&t=5s")
+justice_league = media.Movie("JUSTICE LEAGUE",
+                            "The story of a man",
+                            "https://mfiles.alphacoders.com/638/638377.jpg",
+                            "https://www.youtube.com/watch?v=ftDQOV6K158")
 
-new_movie = media.Movie("Mr Eazi",
-                        "The eazzi man",
-                        "http://www.chartsinfrance.net/covers/aHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvOWIxYjg2ZWJiNjVhMWYxOTU1NmQzYjBkMDI1ZmRmNGE5N2ZkNmFkOA==.jpg",
-                        "https://www.youtube.com/watch?v=vk_4yxkgjAI")
+logan = media.Movie("Logan",
+                    "Logan Official Trailer",
+                    "http://cdn2-www.comingsoon.net/assets/uploads/gallery/untitled-wolverine-sequel/cuaiczwueaaid_w-jpg-large.jpg",
+                    "https://www.youtube.com/watch?v=gbug3zTm3Ws")
 
-print(ayo_story.storyline)
-ayo_story.show_trailer()
+wonder_woman = media.Movie("Wonder Woman",
+                           "Strong woman",
+                           "https://i.paigeeworld.com/user-media/1461628800000/571e2f62fda29888180e61ab_571fa685fbfb470337cf82c6_320.jpg",
+                           "https://www.youtube.com/watch?v=5HUlW21v1fQ")
 
-new_movie.show_trailer()
+pirates_of_the_caribbean = media.Movie("Pirates of the Caribbean",
+                                       "Dead Men Tell No Tales",
+                                       "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean,_Dead_Men_Tell_No_Tales.jpg",
+                                       "https://www.youtube.com/watch?v=6i77T6KzYxM")
+
+guardians_of_galaxy = media.Movie("Guardians of the Galaxy Vol. 2",
+                                  "Official Trailer - Teaser (2017)",
+                                  "http://t3.gstatic.com/images?q=tbn:ANd9GcQWA3pKqv8oaHq4cP6YK3QKpgPbMjoHIzytUlThEF3P8ZAvyeZv",
+                                  "https://www.youtube.com/watch?v=wX0aiMVvnvg")
+
+
+
+#print(ayo_story.storyline)
+#ayo_story.show_trailer()
+
+#new_movie.show_trailer()
