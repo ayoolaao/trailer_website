@@ -30,9 +30,4 @@ guardians_of_galaxy = media.Movie("Guardians of the Galaxy Vol. 2",
                                   "http://t3.gstatic.com/images?q=tbn:ANd9GcQWA3pKqv8oaHq4cP6YK3QKpgPbMjoHIzytUlThEF3P8ZAvyeZv",
                                   "https://www.youtube.com/watch?v=wX0aiMVvnvg")
 
-
-
-#print(ayo_story.storyline)
-#ayo_story.show_trailer()
-
-#new_movie.show_trailer()
+fre
