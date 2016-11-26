@@ -1,6 +1,7 @@
+import fresh_tomatoes
 import media
 
-toy_story = media.Movie("The Flash",
+the_flash = media.Movie("The Flash",
                         "The story of a boy",
                         "http://cdn-static.sidereel.com/tv_shows/57093/giant_2x/the-flash.jpg",
                         "https://www.youtube.com/watch?v=f5gmEHbBPWs&t=5s")
@@ -30,4 +31,5 @@ guardians_of_galaxy = media.Movie("Guardians of the Galaxy Vol. 2",
                                   "http://t3.gstatic.com/images?q=tbn:ANd9GcQWA3pKqv8oaHq4cP6YK3QKpgPbMjoHIzytUlThEF3P8ZAvyeZv",
                                   "https://www.youtube.com/watch?v=wX0aiMVvnvg")
 
-fre
+movies = [the_flash, justice_league, logan, wonder_woman, pirates_of_the_caribbean, guardians_of_galaxy]
+fresh_tomatoes.open_movies_page(movies)
